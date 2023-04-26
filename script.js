@@ -18,12 +18,12 @@ function foo(data1){
   <img src="${data1[i].url}" class="card-img-top" alt="..." style="width:257px;height:238px;>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Capital:${data1[i].id}</li>
-    <li class="list-group-item">Region:${data1[i].height}</li>
-    <li class="list-group-item">country Code:${data1[i].width}</li>
+    <li class="list-group-item">Id:${data1[i].id}</li>
+    <li class="list-group-item">Height:${data1[i].height}</li>
+    <li class="list-group-item">Width:${data1[i].width}</li>
   </ul>
   <div class="card-body">
-    <a href="${data1[i].url}" class="card-link">Click for Weather</a>
+    <a href="${data1[i].url}" class="card-link">open to see</a>
   </div>
 </div>
 
